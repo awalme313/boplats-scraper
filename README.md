@@ -1,0 +1,1 @@
+This is just a small project for checking for new appartments on the website boplats.se. Only useful for me as of now would probably change it for public use, but then i would need to check for security changes in the code.
