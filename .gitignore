@@ -2,3 +2,6 @@
 .venv/
 __pycache__/
 seen_boplats_items.json
+.pytest_cache/
+*.corrupt
+*.tmp

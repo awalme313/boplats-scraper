@@ -1,0 +1,13 @@
+[Unit]
+Description=Boplats apartment listing alerts
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=%h/projects/personal_projects/boplats-scraper
+ExecStart=%h/.local/bin/uv run --no-dev scraper.py
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=default.target
